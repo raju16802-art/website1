@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Kunal Roshay</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- =============================================
+     NAVBAR
+     ============================================= -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <span class="navbar-brand-text">Mr. Raju</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item ms-lg-3">
+          <a class="btn btn-grad btn-sm" href="contact.html">Hire Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- =============================================
+     PORTFOLIO HERO
+     ============================================= -->
+<section class="page-hero text-center">
+  <div class="container">
+    <span class="section-tag">Creative Work</span>
+    <h1 class="section-title mb-3">My <span class="gradient-text">Portfolio</span></h1>
+    <div class="section-line"></div>
+    <p class="section-sub" style="max-width:620px;margin:0 auto 28px;">Explore a curated collection of my design projects spanning graphics, motion, video, and visual effects — each crafted with purpose and passion.</p>
+    <!-- Stats Row -->
+    <div class="d-flex flex-wrap justify-content-center gap-4 mt-4">
+      <div class="text-center">
+        <div style="font-size:1.8rem;font-weight:800;background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">30+</div>
+        <div style="font-size:.78rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;">Projects</div>
+      </div>
+      <div style="width:1px;background:var(--border-subtle);"></div>
+      <div class="text-center">
+        <div style="font-size:1.8rem;font-weight:800;background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">4</div>
+        <div style="font-size:.78rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;">Categories</div>
+      </div>
+      <div style="width:1px;background:var(--border-subtle);"></div>
+      <div class="text-center">
+        <div style="font-size:1.8rem;font-weight:800;background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">5★</div>
+        <div style="font-size:.78rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;">Client Rating</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =============================================
+     PORTFOLIO TABS SECTION
+     ============================================= -->
+<section class="section-pad portfolio-tabs">
+  <div class="container">
+
+    <!-- Bootstrap Tabs Navigation -->
+    <ul class="nav nav-tabs justify-content-center mb-0" id="portfolioTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="design-tab" data-bs-toggle="tab" data-bs-target="#design" type="button" role="tab">
+          <i class="fa-solid fa-pen-nib me-2"></i>Graphics Design
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="motion-tab" data-bs-toggle="tab" data-bs-target="#motion" type="button" role="tab">
+          <i class="fa-solid fa-magic me-2"></i>2D Animatin
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="video-tab" data-bs-toggle="tab" data-bs-target="#video" type="button" role="tab">
+          <i class="fa-solid fa-film me-2"></i>Video Editing
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="vfx-tab" data-bs-toggle="tab" data-bs-target="#vfx" type="button" role="tab">
+          <i class="fa-solid fa-wand-sparkles me-2"></i>VFX
+        </button>
+      </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content pt-3" id="portfolioTabsContent">
+
+      <!-- ── TAB 1: Graphics Design ── -->
+      <div class="tab-pane fade show active" id="design" role="tabpanel">
+        <div class="row g-4">
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap"> <a href="images/workshop.jpeg"><img src="images/workshop.jpeg"alt="Workspace" /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-cat">Workspace</div>
+                <h6 class="card-title"></h6>
+                <p class="card-text">Complete brand identity package featuring primary logo, variations, color system, and brand guidelines for a modern startup.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap"> <a href="images/Logo.jpeg"><img src="images/Logo.jpeg"alt="Workspace" /></a>
+                <img src="images/Logo.jpeg" alt="Social Media" />
+              </div>
+              <div class="card-body">
+                <div class="card-cat">Logo Design</div>
+                <h6 class="card-title">Social Media Campaign Pack</h6>
+                <p class="card-text">Vibrant and consistent social media graphics for Instagram, Facebook, and Twitter campaigns with cohesive branding.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap"> <a href="images/social poster.jpeg"><img src="images/social poster.jpeg"alt="Workspace" /></a>
+                <img src="images/Logo.jpeg" alt="Social Media" />
+              </div>
+              <div class="card-body">
+                <div class="card-cat">Poster</div>
+                <h6 class="card-title">Social Abuse Poster</h6>
+                <p class="card-text">Bold and eye-catching event poster designs for concerts and exhibitions using typography-led layouts.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap"> <a href=images/MAGZINE.jpg><img src="images/MAGZINE.jpg" alt="Magazine" /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-cat">Editorial Design</div>
+                <h6 class="card-title">Magazine Layout Design</h6>
+                <p class="card-text">Editorial layout design for a lifestyle magazine — grid-based, typographic-focused, and visually engaging spreads.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap"> <a href="images/packg.jpeg"><img src="images/packg.jpeg" /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-cat">Packaging Design</div>
+                <h6 class="card-title">Product Packaging Design</h6>
+                <p class="card-text">Premium product packaging concept for a food brand — combining clean design with bold visual hierarchy.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap"> <a href="images/insta post.jpeg"><img src="images/insta post.jpeg" alt="Infographic" /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-cat">Fasion sell</div>
+                <h6 class="card-title">Instagram post</h6>
+                <p class="card-text">Visually compelling infographics translating complex business data into clear, engaging visual narratives.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div><!-- /design tab -->
+
+
+      <!-- ── TAB 2: Motion Graphics ── -->
+      <div class="tab-pane fade" id="motion" role="tabpanel">
+        <div class="row g-4">
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap" style="position:relative;"> <a href="images/car animation.gif"><img src="images/car animation.gif" alt="Animated Intro" /></a>
+                <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;">
+                  <div style="width:46px;height:46px;background:var(--grad-main);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 0 20px rgba(124,58,237,.6);">
+                    <i class="fa-solid fa-play ms-1" style="color:#fff;font-size:.9rem;"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-cat">Animated Intro</div>
+                <h6 class="card-title">YouTube Channel Intro Pack</h6>
+                <p class="card-text">10-second animated intro with smooth logo reveal, kinetic text, and particle effects for a YouTube creator.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap" style="position:relative;"> <a href="images/clock-.gif"><img src="images/clock-.gif" alt="Corporate" /></a>
+                <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;">
+                  <div style="width:46px;height:46px;background:var(--grad-main);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 0 20px rgba(124,58,237,.6);">
+                    <i class="fa-solid fa-play ms-1" style="color:#fff;font-size:.9rem;"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-cat">Corporate Motion</div>
+                <h6 class="card-title">Corporate Presentation Animation</h6>
+                <p class="card-text">Slick animated PowerPoint-style presentation with kinetic charts, transitions, and branded elements.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap" style="position:relative;"> <a href="images/coin.gif"><img src="images/coin.gif" alt="Kinetic" /></a>
+                <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;">
+                  <div style="width:46px;height:46px;background:var(--grad-main);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 0 20px rgba(124,58,237,.6);">
+                    <i class="fa-solid fa-play ms-1" style="color:#fff;font-size:.9rem;"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-cat">Kinetic Typography</div>
+                <h6 class="card-title">Quote Animation — Motivational Series</h6>
+                <p class="card-text">Dynamic kinetic typography animation for motivational content — bold, rhythmic, and visually punchy.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap" style="position:relative;"> <a href="images/doremon-trace.gif"><img src="images/doremon-trace.gif" alt="Lower Thirds" /></a>
+              </div>
+              <div class="card-body">
+                <div class="card-cat">Broadcast Graphics</div>
+                <h6 class="card-title">News Lower Thirds Pack</h6>
+                <p class="card-text">Professional animated lower thirds and title card graphics for broadcast and streaming use.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap" style="position:relative;">
+                <img src="https://via.placeholder.com/600x360/1a1a28/06b6d4?text=Icon+Animation" alt="Icon Animation" />
+              </div>
+              <div class="card-body">
+                <div class="card-cat">UI Animation</div>
+                <h6 class="card-title">Animated Icon Pack</h6>
+                <p class="card-text">Set of 24 smooth animated icons for apps and websites — crafted with micro-interaction principles.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap" style="position:relative;">
+                <img src="https://via.placeholder.com/600x360/1a1a28/f59e0b?text=Logo+Reveal+Animation" alt="Logo Reveal" />
+              </div>
+              <div class="card-body">
+                <div class="card-cat">Logo Animation</div>
+                <h6 class="card-title">Logo Reveal Animations — 3 Styles</h6>
+                <p class="card-text">Three unique logo reveal animations — glitch, ink drop, and particle burst — for brand storytelling.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div><!-- /motion tab -->
+
+
+      <!-- ── TAB 4: VFX ── -->
+      <div class="tab-pane fade" id="vfx" role="tabpanel">
+        <div class="row g-4">
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap" style="position:relative;"> <a href="images/matte painting.gif"><img src="images/matte painting.gif"alt="Green Screen" /></a>
+                <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;">
+                  <div style="width:46px;height:46px;background:var(--grad-main);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 0 20px rgba(124,58,237,.6);">
+                    <i class="fa-solid fa-play ms-1" style="color:#fff;font-size:.9rem;"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-cat">Compositing</div>
+                <h6 class="card-title">Matte Penting Animatin</h6>
+                <p class="card-text">Advanced chroma key compositing placing actors in digital environments with realistic lighting and shadows.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="glass-card port-card h-100">
+              <div class="card-img-wrap" style="position:relative;"> <a href="images/Double roll.gif"><img src="images/Double roll.gif" alt="Particles" /></a>
+                <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;">
+                  <div style="width:46px;height:46px;background:var(--grad-main);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 0 20px rgba(124,58,237,.6);">
+                    <i class="fa-solid fa-play ms-1" style="color:#fff;font-size:.9rem;"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-cat">Particle Effects</div>
+                <h6 class="card-title">Double Roll</h6>
+                <p class="card-text">Stunning particle effects sequence showcasing emitters, physics, and color-dynamic particle systems.</p>
+                <a href="#" class="btn btn-grad btn-sm">View Project <i class="fa-solid fa-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          
+
+        </div>
+      </div><!-- /vfx tab -->
+
+    </div><!-- /tab-content -->
+  </div>
+</section>
+
+
+<!-- =============================================
+     CLIENT TESTIMONIALS SECTION
+     ============================================= -->
+<section class="section-pad" style="background:var(--bg-card)">
+  <div class="container">
+
+    <div class="section-header">
+      <span class="section-tag">Client Love</span>
+      <h2 class="section-title">What Clients <span class="gradient-text">Say</span></h2>
+      <div class="section-line"></div>
+      <p class="section-sub">Genuine feedback from happy clients who've experienced my work firsthand.</p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Testimonial 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Kunal delivered an exceptional logo design for our brand ABCD. He understood our vision perfectly and created something that truly represents our identity. Highly professional and creative!"</p>
+          <div class="d-flex align-items-center gap-3">
+            <img src="https://via.placeholder.com/60x60/7c3aed/fff?text=A" alt="Client" class="testimonial-avatar" />
+            <div>
+              <div class="testimonial-name">Aditya Sharma</div>
+              <div class="testimonial-role">Founder, ABCD Brand</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">"The motion graphics Kunal created for our corporate presentation were simply stunning. Clean, professional, and delivered ahead of schedule. Will definitely work with him again!"</p>
+          <div class="d-flex align-items-center gap-3">
+            <img src="https://via.placeholder.com/60x60/06b6d4/fff?text=R" alt="Client" class="testimonial-avatar" />
+            <div>
+              <div class="testimonial-name">Riya Mehta</div>
+              <div class="testimonial-role">Marketing Manager, TechCorp</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p class="testimonial-text">"Incredible video editing skills! Kunal transformed our raw footage into a cinematic masterpiece. The color grading and pacing were spot on. Our YouTube channel views tripled after the upload."</p>
+          <div class="d-flex align-items-center gap-3">
+            <img src="https://via.placeholder.com/60x60/f59e0b/fff?text=V" alt="Client" class="testimonial-avatar" />
+            <div>
+              <div class="testimonial-name">Vikram Patel</div>
+              <div class="testimonial-role">Content Creator &amp; YouTuber</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- =============================================
+     CTA SECTION
+     ============================================= -->
+<section class="section-pad" style="background:var(--bg-dark)">
+  <div class="container">
+    <div class="text-center" style="max-width:600px;margin:0 auto;">
+      <span class="section-tag">Let's Work Together</span>
+      <h2 class="section-title mb-3">Have a Project <span class="gradient-text">In Mind?</span></h2>
+      <p style="color:var(--text-muted);margin-bottom:32px;">Whether it's branding, animation, video, or VFX — I'm ready to bring your vision to life. Let's create something extraordinary together.</p>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <a href="contact.html" class="btn btn-grad btn-lg">Start a Project <i class="fa-solid fa-rocket ms-2"></i></a>
+        <a href="about.html" class="btn btn-outline-grad btn-lg">Learn About Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =============================================
+     FOOTER
+     ============================================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="footer-brand">Mr. Raju&nbsp;</div>
+        <p style="color:var(--text-muted);font-size:.9rem;max-width:300px;">Graphics Designer &amp; Motion Artist crafting visual stories that inspire and captivate.</p>
+        <div class="social-links mt-3">
+          <a href="https://www.instagram.com/rajuyadav8213056?igsh=MWttNXY1YmttdGg4NA==" class="social-btn"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.behance.net/ed3f9246" class="social-btn"><i class="fab fa-behance"></i></a>
+          <a href="#" class="social-btn"><i class="fab fa-dribbble"></i></a>
+          <a href="https://www.linkedin.com/in/raju-kumar-7ab596405?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/@RajuVFX-1" class="social-btn"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2 offset-lg-1">
+        <h6 style="font-weight:700;margin-bottom:16px;font-size:.85rem;letter-spacing:1px;text-transform:uppercase;color:var(--text-muted)">Quick Links</h6>
+        <ul class="list-unstyled" style="font-size:.88rem;">
+          <li class="mb-2"><a href="index.html" style="color:var(--text-muted)">Home</a></li>
+          <li class="mb-2"><a href="about.html" style="color:var(--text-muted)">About Me</a></li>
+          <li class="mb-2"><a href="portfolio.html" style="color:var(--text-muted)">Portfolio</a></li>
+          <li class="mb-2"><a href="contact.html" style="color:var(--text-muted)">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 offset-lg-2">
+        <h6 style="font-weight:700;margin-bottom:16px;font-size:.85rem;letter-spacing:1px;text-transform:uppercase;color:var(--text-muted)">Get In Touch</h6>
+        <p style="color:var(--text-muted);font-size:.88rem;"><i class="fa-solid fa-envelope me-2 text-accent-2"></i>rkkumar629915@gmail.com</p>
+        <p style="color:var(--text-muted);font-size:.88rem;"><i class="fa-solid fa-phone me-2 text-accent-2"></i>+91 6299155494</p>
+        <a href="contact.html" class="btn btn-grad btn-sm mt-2">Contact Me</a>
+      </div>
+    </div>
+    <hr class="footer-divider" />
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-2">
+      <p class="footer-copy mb-0">&copy; 2026 <strong style="color:var(--text-primary)">Mr. Raju</strong>. All Rights Reserved.</p>
+      <p class="footer-copy mb-0">Designed with <i class="fa-solid fa-heart text-accent-1 mx-1"></i> by Mr. Raju</p>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
